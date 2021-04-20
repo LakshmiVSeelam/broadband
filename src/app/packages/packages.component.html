@@ -1,0 +1,134 @@
+<div class="boxed_wrapper">
+
+    <div class="preloader"></div>
+    
+    
+    <!--Start breadcrumb area-->     
+    <section class="breadcrumb-area" style="background-image:url(assets/images/resources/packages_banner.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="inner-content text-center clearfix">
+                        <div class="breadcrumb-menu">
+                            <ul class="clearfix">
+                                <li><a href="index.html">Home</a></li>
+                                <li class="active">Packages</li>
+                            </ul>    
+                        </div>
+                        <div class="title">
+                           <h1>Packages</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End breadcrumb area-->
+    
+    
+    <!--Start Package Area-->
+    <section class="package-area">
+        <div class="container">
+            <div class="sec-title text-center">
+                <h6>broadband packages</h6>
+                <div class="title">Unlimited Broadband Packages</div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12" *ngFor="let package of packages">
+                    <div class="single-package-item text-center">
+                        <div class="value">
+                            <h1>Rs. {{package.price}}</h1>
+                            <span>per month</span>
+                        </div>
+                        <div class="details-box">
+                            <ul class="single-box">
+                                <!-- <li class="top clr2">Fiber Broadband</li> -->
+                                <li>Up to {{package.speed}}Mbps average</li>
+                                <li>download speed</li>
+                            </ul>
+                            <ul class="single-box">
+                                <li>Downloads = {{package.dwnlds}}</li>
+                                <li>Validity = {{package.validity}} Days</li>
+                                <li>Voice = {{package.voice}}</li>
+                                <li>{{package.ott_count}} X OTT Subscription worth Rs.{{package.ott_cost}}/-</li>
+                            </ul>
+                        </div>
+                        <!-- <div class="button">
+                            <a class="btn-one" href="#">Start Your Order</a>
+                        </div>     -->
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Package Area-->
+     
+    <!--Start offering area--> 
+    <section class="offering-area">
+        <div class="container">
+            <div class="sec-title text-center">
+                <h6>What else we are offering</h6>
+                <div class="title">Included in All Our Packages</div>
+            </div>
+            <div class="row">
+                <!--Start single offering box-->
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="single-offering-box">
+                        <span class="flaticon-quality"></span> 
+                        <h4>Pure Fibre<br> Broadband</h4>   
+                    </div>
+                </div>
+                <!--End single offering box-->
+                <!--Start single offering box-->
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="single-offering-box">
+                        <span class="flaticon-download-from-the-cloud"></span> 
+                        <h4>Unlimited<br> Downloads</h4>   
+                    </div>
+                </div>
+                <!--End single offering box-->
+                <!--Start single offering box-->
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="single-offering-box">
+                        <span class="flaticon-calendar"></span> 
+                        <h4>Flexible<br> Validity</h4>   
+                    </div>
+                </div>
+                <!--End single offering box-->
+                <!--Start single offering box-->
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="single-offering-box">
+                        <span class="flaticon-support"></span> 
+                        <h4>12 * 7 Onsite &<br> Telephonic Support</h4>   
+                    </div>
+                </div>
+                <!--End single offering box-->
+            </div>
+        </div>
+    </section>     
+    <!--End offering area--> 
+    
+    
+      
+    <!--Start slogan area-->
+    <section class="slogan-area text-center" style="background-image:url(assets/images/parallax-background/packages_parallax.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="inner-content fix wow fadeInUp" data-wow-delay="100ms">
+                        <div class="title">
+                            <h1>When it Comes to Switching,<br> We're Fast. Superfast.</h1>
+                        </div>
+                        <div class="button">
+                            <a class="btn-one" routerLink="/contact">Switch to GBPS</a>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>           
+    <!--End slogan area-->  
+      
+    
+    
+    </div>  

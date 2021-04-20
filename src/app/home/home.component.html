@@ -1,0 +1,248 @@
+<div class="boxed_wrapper">
+
+    <div class="preloader"></div> 
+    
+     
+     
+    <!--Main Slider-->
+    <section class="main-slider">
+        <div class="rev_slider_wrapper fullwidthbanner-container"  id="rev_slider_one_wrapper" data-source="gallery">
+            <div class="rev_slider fullwidthabanner" id="rev_slider_one" data-version="5.4.1">
+                <ul>
+                    <li *ngFor="let banner of bannerData; index as i" data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-{{i}}" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="{{banner.imgUrl}}" data-title="Slide Title" data-transition="parallaxvertical">
+    
+                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="{{banner.imgUrl}}">
+                        
+                        <div class="tp-caption" 
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingtop="[0,0,0,0]"
+                        data-responsive_offset="on"
+                        data-type="text"
+                        data-height="none"
+                        data-width="['1000','900','700','450']"
+                        data-whitespace="normal"
+                        data-hoffset="['0','0','0','0']"
+                        data-voffset="['-160','-145','-120','-90']"
+                        data-x="['center','center','center','center']"
+                        data-y="['middle','middle','middle','middle']"
+                        data-textalign="['top','top','top','top']"
+                        data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                        style="z-index: 7; white-space: nowrap;">
+                          <div class="slide-content middle-slide text-center">
+                                <div class="title">
+                                    {{banner.btntitle}}
+                                </div>    
+                            </div>
+                        </div>  
+                        <div class="tp-caption" 
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingtop="[0,0,0,0]"
+                        data-responsive_offset="on"
+                        data-type="text"
+                        data-height="none"
+                        data-width="['1000','900','700','450']"
+                        data-whitespace="normal"
+                        data-hoffset="['15','15','15','15']"
+                        data-voffset="['-10','-15','-20','-10']"
+                        data-x="['center','center','center','center']"
+                        data-y="['middle','middle','middle','middle']"
+                        data-textalign="['top','top','top','top']"
+                        data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                        style="z-index: 7; white-space: nowrap;">
+                            <div class="slide-content middle-slide text-center">
+                                <div class="big-title">
+                                    {{banner.title}}
+                                </div>    
+                            </div>
+                        </div> 
+                        <div class="tp-caption" 
+                        data-paddingbottom="[0,0,0,0]"
+                        data-paddingleft="[0,0,0,0]"
+                        data-paddingright="[0,0,0,0]"
+                        data-paddingtop="[0,0,0,0]"
+                        data-responsive_offset="on"
+                        data-type="text"
+                        data-height="none"
+                        data-whitespace="normal"
+                        data-width="['1000','900','700','450']"
+                        data-hoffset="['15','15','15','15']"
+                        data-voffset="['145','125','95','80']"
+                        data-x="['center','center','center','center']"
+                        data-y="['middle','middle','middle','middle']"
+                        data-textalign="['top','top','top','top']"
+                        data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                        style="z-index: 7; white-space: nowrap;">
+                            <div class="slide-content middle-slide text-center">
+                                <div class="text">{{banner.bottom_content}}</div> 
+                            </div>
+                        </div>   
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--End Main Slider-->
+    
+    <!--Start Featured area-->
+    <section class="featured-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <ul class="featured-box">
+                        <!--Start Single Featured box-->
+                        <li class="single-featured-box">
+                            <div class="icon-holder">
+                                <span class="flaticon-quality"></span>
+                            </div>
+                            <div class="title-holder">
+                                <h3>Award Winning</h3>
+                                <span>We won many awards for our service</span>
+                            </div>
+                        </li>
+                        <!--End Single Featured box-->
+                        <!--Start Single Featured box-->
+                        <li class="single-featured-box">
+                            <div class="icon-holder">
+                                <span class="flaticon-support"></span>
+                            </div>
+                            <div class="title-holder">
+                                <h3>Best Support</h3>
+                                <span>Get top support 365 days a year</span>
+                            </div>
+                        </li>
+                        <!--End Single Featured box-->
+                        <!--Start Single Featured box-->
+                        <li class="single-featured-box">
+                            <div class="icon-holder">
+                                <span class="flaticon-download-from-the-cloud"></span>
+                            </div>
+                            <div class="title-holder">
+                                <h3>Unlimited Downloads</h3>
+                                <span>Unlimited broadband with no usage limits</span>
+                            </div>
+                        </li>
+                        <!--End Single Featured box-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Featured area-->
+    
+    
+    <!--Start Welcome Area-->
+    <section class="welcome-area secpd1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-12">
+                    <div class="welcome-image-box clearfix">
+                        <div class="image-box1">
+                            <img src="assets/images/resources/welcome-1.jpg" alt="Awesome Image">
+                        </div>
+                        <div class="image-box2">
+                            <img src="assets/images/resources/welcome-2.jpg" alt="Awesome Image">
+                        </div>
+                        <div class="image-box3">
+                            <img src="assets/images/resources/welcome-3.jpg" alt="Awesome Image">
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-12">
+                    <div class="welcome-content-box">
+                        <div class="sec-title">
+                            <h6>Welcome to GBPS broadband</h6>
+                            <div class="title">Unbelievable Super Fast Broadband</div>
+                        </div>
+                        <div class="inner-content">
+                            <div class="text">
+                                <p>At GBPS Network Pvt. Ltd., we are envisioning and developing the society to brace the fast pace world. Excellent for our household customers and enterprises in the communities we serve broadband services. We are shaping the society - individuals and businesses alike that utilize the internet to enhance lives by using the internet with fast speed and ready access to search engines. We are leading the power of the internet to people regardless of income and background with remarkably affordable rates.
+                                    We offer distinct value-added services such as Google, Hotstar, Akamai amongst various other services to encourage all to reach their full potential. </p>
+                            </div>
+                            <ul class="mt-0 mb-3">
+                                <li>Superfast and ultra-reliable.</li>
+                                <li>Browse and download around the clock.</li>
+                                <li>Our fastest ever router.</li>
+                            </ul>
+                            <!-- <div class="button">
+                                <a class="btn-one" href="#">Discover More</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--End Welcome Area-->
+    
+    
+    <!--Start Package Area-->
+    <section class="package-area">
+        <div class="container">
+            <div class="sec-title text-center">
+                <h6>broadband packages</h6>
+                <div class="title">Unlimited Broadband Packages</div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12" *ngFor="let package of packages">
+                    <div class="single-package-item text-center">
+                        <div class="value">
+                            <h1>Rs. {{package.price}}</h1>
+                            <span>per month</span>
+                        </div>
+                        <div class="details-box">
+                            <ul class="single-box">
+                                <!-- <li class="top clr2">Fiber Broadband</li> -->
+                                <li>Up to {{package.speed}}Mbps average</li>
+                                <li>download speed</li>
+                            </ul>
+                            <ul class="single-box">
+                                <li>Downloads = {{package.dwnlds}}</li>
+                                <li>Validity = {{package.validity}} Days</li>
+                                <li>Voice = {{package.voice}}</li>
+                                <li>{{package.ott_count}} X OTT Subscription worth Rs.{{package.ott_cost}}/-</li>
+                            </ul>
+                        </div>
+                        <!-- <div class="button">
+                            <a class="btn-one" href="#">Start Your Order</a>
+                        </div>     -->
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Package Area-->
+   
+     
+    <!--Start slogan area-->
+    <section class="slogan-area text-center" style="background-image:url(assets/images/parallax-background/slogan-bg.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="inner-content fix wow fadeInUp" data-wow-delay="100ms">
+                        <div class="title">
+                            <h1>When it Comes to Switching,<br> We're Fast. Superfast.</h1>
+                        </div>
+                        <div class="button">
+                            <a class="btn-one" routerLink="/contact">Switch to GBPS</a>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>           
+    <!--End slogan area-->
+      
+   
+    
+    
+    
+    </div>  
+    
+    
