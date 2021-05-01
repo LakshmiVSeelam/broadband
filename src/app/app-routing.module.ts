@@ -5,7 +5,7 @@ import { AboutComponent } from './about/about.component';
 import { HomebroadbandComponent} from './homebroadband/homebroadband.component'
 import { EnterprisebroadbandComponent} from './enterprisebroadband/enterprisebroadband.component'
 import {PackagesComponent} from './packages/packages.component'
-import { WhygbpsComponent } from './whygbps/whygbps.component'
+import { WhyFAPSComponent } from './whygbps/whygbps.component'
 import { ContactComponent } from './contact/contact.component'
 
 
@@ -29,7 +29,7 @@ const routes: Routes = [
     path: 'packages', component: PackagesComponent
   },
   {
-    path: 'whygbps', component: WhygbpsComponent
+    path: 'whyFAPS', component: WhyFAPSComponent
   },
   {
     path: 'contact', component: ContactComponent

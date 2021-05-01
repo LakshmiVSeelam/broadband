@@ -10,16 +10,16 @@ declare function revSlider() : any;
 export class HomeComponent {
 
     bannerData = [
-        {"imgUrl": "assets/images/slides/v1-1.jpg", "btntitle": "Welcome to GBPS", "title": "Take Control with Pure Fibre Broadband", "bottom_content": "Choose GBPS best monthly plans starting from $10"},
-        {"imgUrl": "assets/images/slides/v1-2.jpg", "btntitle": "Welcome to GBPS", "title": "Take Control with Pure Fibre Broadband", "bottom_content": "Choose GBPS best monthly plans starting from $10"},
-        {"imgUrl": "assets/images/slides/v1-3.jpg", "btntitle": "Welcome to GBPS", "title": "Take Control with Pure Fibre Broadband", "bottom_content": "Choose GBPS best monthly plans starting from $10"}
+        {"imgUrl": "assets/images/slides/v1-1.jpg", "btntitle": "Welcome to FAPS", "title": "Take Control with Pure Fibre Broadband", "bottom_content": "Choose FAPS best monthly plans starting from $10"},
+        {"imgUrl": "assets/images/slides/v1-2.jpg", "btntitle": "Welcome to FAPS", "title": "Take Control with Pure Fibre Broadband", "bottom_content": "Choose FAPS best monthly plans starting from $10"},
+        {"imgUrl": "assets/images/slides/v1-3.jpg", "btntitle": "Welcome to FAPS", "title": "Take Control with Pure Fibre Broadband", "bottom_content": "Choose FAPS best monthly plans starting from $10"}
     ]
 
     packages = [
-    {"price": 650, "speed": 50,"dwnlds": "Unlimited", "validity": 30, "voice": "Unlimited Local & STD", "ott_count": 1, "ott_cost": 129},
-      {"price": 860, "speed": 100,"dwnlds": "Unlimited", "validity": 30, "voice": "Unlimited Local & STD", "ott_count": 3, "ott_cost": 247},
-      {"price": 1060, "speed": 150,"dwnlds": "Unlimited", "validity": 30, "voice": "Unlimited Local & STD", "ott_count": 5, "ott_cost": 435},
-      {"price": 1260, "speed": 300,"dwnlds": "Unlimited", "validity": 30, "voice": "Unlimited Local & STD", "ott_count": 5, "ott_cost": 435}
+    {"price": 650, "speed": 50,"dwnlds": "Unlimited", "validity": 30, "voice": "Unlimited Local & STD", "ott_count": 1, "ott_cost": 299},
+      {"price": 860, "speed": 100,"dwnlds": "Unlimited", "validity": 30, "voice": "Unlimited Local & STD", "ott_count": 3, "ott_cost": 399},
+      {"price": 1060, "speed": 150,"dwnlds": "Unlimited", "validity": 30, "voice": "Unlimited Local & STD", "ott_count": 5, "ott_cost": 499},
+      {"price": 1260, "speed": 300,"dwnlds": "Unlimited", "validity": 30, "voice": "Unlimited Local & STD", "ott_count": 5, "ott_cost": 599}
     ]
 
     slider;

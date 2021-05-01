@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-whygbps',
+  selector: 'app-whyFAPS',
   templateUrl: './whygbps.component.html',
   styleUrls: ['./whygbps.component.css']
 })
-export class WhygbpsComponent implements OnInit {
+export class WhyFAPSComponent implements OnInit {
 
   constructor() { }
 

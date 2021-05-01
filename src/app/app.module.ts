@@ -9,7 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { HomebroadbandComponent } from './homebroadband/homebroadband.component';
 import { PackagesComponent } from './packages/packages.component';
 import { ContactComponent } from './contact/contact.component';
-import { WhygbpsComponent } from './whygbps/whygbps.component';
+import { WhyFAPSComponent } from './whygbps/whygbps.component';
 import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { ScrollTopComponent } from './scroll-top/scroll-top.component';
@@ -22,7 +22,7 @@ import { ScrollTopComponent } from './scroll-top/scroll-top.component';
     HomebroadbandComponent,
     PackagesComponent,
     ContactComponent,
-    WhygbpsComponent,
+    WhyFAPSComponent,
     MenuComponent,
     FooterComponent,
     ScrollTopComponent
